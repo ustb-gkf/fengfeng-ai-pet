@@ -1,0 +1,38 @@
+{
+  "status": "pass",
+  "sprite_spec": {
+    "version": 2,
+    "format": "WEBP",
+    "mode": "RGBA",
+    "width": 1536,
+    "height": 2288,
+    "columns": 8,
+    "rows": 11
+  },
+  "content": {
+    "standard_animation_rows": 9,
+    "look_directions": 16,
+    "direction_order": "clockwise",
+    "cardinal_direction_gates": "all_pass",
+    "running_gait": "strict_A_B_alternation"
+  },
+  "automated_checks": {
+    "structural_validation": "pass",
+    "transparent_rgb_residue_pixels": 0,
+    "alpha_holes": 0,
+    "chroma_despill": "pass",
+    "alpha_preserved_after_despill": true
+  },
+  "agent_evaluation": {
+    "blind_reviewers": 3,
+    "blind_direction_validation": "pass_with_reviewed_minor_warnings",
+    "independent_final_visual_qa": "pass",
+    "blocking_failures": 0
+  },
+  "privacy": {
+    "original_reference_included": false,
+    "failed_generation_samples_included": false,
+    "local_machine_paths_included": false
+  }
+}
+
